@@ -235,7 +235,7 @@ export default function Home() {
 								padding: "5px",
 								margin: "5px",
 							}}>
-							<p style={{ fontWeight: "bold" }}>"{memo.message}"</p>
+							<p style={{ fontWeight: "bold" }}>&quot;{memo.message}&quot;</p>
 							<p>
 								From: {memo.name} at {memo.timestamp.toString()}
 							</p>
@@ -249,7 +249,7 @@ export default function Home() {
 					href='https://alchemy.com/?a=roadtoweb3weektwo'
 					target='_blank'
 					rel='noopener noreferrer'>
-					Created by @tuturuTech for Alchemy's Road to Web3 lesson two!
+					Created by @tuturuTech for Alchemy&apos;s Road to Web3 lesson two!
 				</a>
 			</footer>
 		</div>
